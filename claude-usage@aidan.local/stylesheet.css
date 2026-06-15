@@ -1,0 +1,57 @@
+/* Panel */
+.claude-panel-box {
+    spacing: 4px;
+}
+
+.claude-panel-label {
+    font-feature-settings: "tnum";
+}
+
+/* panel icons (symbolic SVGs recolour to this) */
+.claude-pico {
+    color: #d8d8d8;
+}
+
+/* vertical separator between agents and usage */
+.claude-vsep {
+    color: rgba(255, 255, 255, 0.22);
+    padding: 0 2px;
+}
+
+/* dropdown last-pull status line */
+.claude-status-line {
+    font-size: 0.85em;
+    color: #9aa0a6;
+}
+
+.claude-busy {
+    color: #e76125; /* primary orange — a session is actively working */
+}
+
+.claude-idle {
+    color: #646d72; /* dark gray — sessions stopped / waiting on you */
+}
+
+/* Dropdown session rows */
+.claude-row-dot {
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.claude-dot-busy {
+    color: #e76125;
+}
+
+.claude-dot-idle {
+    color: #646d72;
+}
+
+.claude-row-name {
+    font-weight: bold;
+}
+
+.claude-row-detail {
+    color: #9aa0a6;
+    padding-left: 16px;
+    font-feature-settings: "tnum";
+}

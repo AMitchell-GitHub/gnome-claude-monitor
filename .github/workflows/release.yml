@@ -1,0 +1,29 @@
+name: Release
+
+# Build the extension zip and attach it to a GitHub Release whenever a version
+# tag is pushed, e.g.:  git tag v1.0.0 && git push origin v1.0.0
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install build deps
+        run: sudo apt-get update && sudo apt-get install -y libglib2.0-bin zip
+
+      - name: Build extension zip
+        run: ./build.sh
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/claude-usage.shell-extension.zip
+          generate_release_notes: true

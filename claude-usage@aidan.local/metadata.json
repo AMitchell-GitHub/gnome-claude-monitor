@@ -1,0 +1,9 @@
+{
+  "uuid": "claude-usage@aidan.local",
+  "name": "Claude Usage",
+  "description": "Shows live Claude Code session status and usage/reset countdowns in the GNOME top bar.",
+  "shell-version": ["48"],
+  "version": 1,
+  "session-modes": ["user"],
+  "settings-schema": "org.gnome.shell.extensions.claude-usage"
+}
