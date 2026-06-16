@@ -3,9 +3,12 @@
 A top-bar indicator for **GNOME Shell 48** that shows your live **Claude Code** sessions and
 your **usage** against Claude's rolling limits, with a dropdown for detail.
 
-> Panel: `🤖 1/3 │ ⏱ 13% · 4h13m`
-> &nbsp;&nbsp;• robot + `running/total` sessions (count turns orange when one is working)
-> &nbsp;&nbsp;• speedometer + real 5-hour utilization and reset countdown
+Panel: `🤖 1/3 │ ⏱ 13% · 4h13m`
+- robot + `running/total` sessions (count turns orange when one is working)
+- speedometer + real 5-hour utilization and reset countdown
+
+<img width="438" height="32" alt="image" src="https://github.com/user-attachments/assets/98143976-cc52-4031-9ced-987a4748e51f" />
+
 
 ## Install
 
