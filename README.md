@@ -7,7 +7,11 @@ Panel: `🤖 1/3 │ ⏱ 13% · 4h13m`
 - robot + `running/total` sessions (count turns orange when one is working)
 - speedometer + real 5-hour utilization and reset countdown
 
+
 <img width="438" height="32" alt="image" src="https://github.com/user-attachments/assets/98143976-cc52-4031-9ced-987a4748e51f" />
+<br>
+<img width="392" height="34" alt="image" src="https://github.com/user-attachments/assets/c3df88a5-3040-4a63-8d14-cc184eb3df16" />
+
 
 
 ## Install
